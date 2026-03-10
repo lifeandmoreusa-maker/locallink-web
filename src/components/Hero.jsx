@@ -3,24 +3,32 @@ import React from 'react';
 const Hero = ({ onOpenForm }) => {
   return (
     <section className="relative w-full h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
-      {/* Background Gradient / Video Area */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-br from-primary to-secondary">
-        {/*
-        <video autoPlay muted loop playsInline className="absolute inset-0 w-full h-full object-cover opacity-60">
-          <source src="/video/locallink_main_pc.mp4" type="video/mp4" />
+      {/* 배경 영상 영역 */}
+      <div className="absolute inset-0 z-0 bg-black">
+        <video 
+          autoPlay 
+          muted 
+          loop 
+          playsInline 
+          className="absolute inset-0 w-full h-full object-cover opacity-100"
+        >
+          <source src="/video/인카_서포터즈_N잡러_모집_영상_제작.mp4" type="video/mp4" />
         </video>
-        */}
+        {/* 영상 위에 텍스트 가독성을 위한 아주 옅은 어두운 오버레이 추가 (필요 시) */}
+        <div className="absolute inset-0 bg-black/20 z-0"></div>
       </div>
+
       
-      {/* Content */}
+      {/* 컨텐츠 */}
       <div className="relative z-10 text-center px-4 w-full max-w-4xl mx-auto flex flex-col items-center">
         <p className="text-white/90 text-lg md:text-2xl font-medium mb-4 animate-fade-in-up">
           전문가와 이웃을 잇는 가장 따뜻한 방법,
         </p>
         
         <h2 className="text-5xl md:text-7xl font-bold text-white mb-10 drop-shadow-lg">
-          로컬링크
+          인카 제이어스
         </h2>
+
         
         <button 
           onClick={onOpenForm}

@@ -27,7 +27,7 @@ const Features = () => {
         <div className="text-center mb-24 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6 leading-tight">
             성장을 넘어 상생으로,<br />
-            제이어스 로컬링크는 다릅니다.
+            인카 제이어스는 다릅니다.
           </h2>
           <p className="text-xl text-gray-600 mb-4">로컬 전문가 매칭 플랫폼 최초</p>
           <div className="inline-block px-6 py-2 bg-secondary text-white text-2xl font-bold rounded-full shadow-md">
@@ -40,10 +40,11 @@ const Features = () => {
         {/* 3 Values Section */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-primary block mb-2">제이어스 로컬링크!</span>
+            <span className="text-primary block mb-2">인카 제이어스!</span>
             <span className="text-gray-800">3가지 '부자'를 기억하세요.</span>
           </h2>
         </div>
+
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {cards.map((card, idx) => (

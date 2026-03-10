@@ -4,7 +4,7 @@ const Steps = () => {
   const steps = [
     { number: '1', label: '1분 파트너 신청' },
     { number: '2', label: '전문 분야 프로필 등록' },
-    { number: '3', label: '로컬링크 신뢰 인증' },
+    { number: '3', label: '인카 제이어스 신뢰 인증' },
     { number: '4', label: '지역매칭 & 수익 창출' },
   ];
 

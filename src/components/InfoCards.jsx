@@ -3,34 +3,35 @@ import React from 'react';
 const InfoCards = () => {
   const points = [
     {
-      badge: 'point 1',
+      badge: '포인트 1',
       badgeClass: 'bg-gray-500 text-white',
       bgClass: 'bg-gray-100',
       text: '직장인, 자영업자, 주부, 프리랜서까지\n직업에 상관없이 누구나',
       textClass: 'text-gray-800'
     },
     {
-      badge: 'point 2',
+      badge: '포인트 2',
       badgeClass: 'bg-secondary text-white',
       bgClass: 'bg-blue-50',
       text: '초기 비용 ZERO\n부담없이 시작하는 로컬 전문가 활동',
       textClass: 'text-gray-800'
     },
     {
-      badge: 'point 3',
+      badge: '포인트 3',
       badgeClass: 'bg-white text-primary',
       bgClass: 'bg-primary',
       text: '경험이 부족해도 괜찮아요\n1:1 파트너 지원 및 신뢰 기반 매칭',
       textClass: 'text-white'
     },
     {
-      badge: 'point 4',
+      badge: '포인트 4',
       badgeClass: 'bg-success text-white',
       bgClass: 'bg-green-50',
       text: '투명한 수익 공유 배분 시스템\n노력한 만큼 확실한 보상',
       textClass: 'text-gray-800'
     }
   ];
+
 
   return (
     <section className="py-24 bg-white">
