@@ -2,37 +2,35 @@ import React from 'react';
 
 const Hero = ({ onOpenForm }) => {
   return (
-    <section className="relative w-full h-[100dvh] min-h-[500px] md:min-h-[600px] flex items-center justify-center overflow-hidden">
+    <section className="relative w-full md:h-[100dvh] min-h-screen md:min-h-[600px] flex flex-col md:block bg-black overflow-hidden">
       {/* 배경 영상 영역 */}
-      <div className="absolute inset-0 z-0 bg-black">
+      <div className="relative md:absolute md:inset-0 z-0 w-full aspect-video md:aspect-none md:h-full bg-black">
         <video 
           autoPlay 
           muted 
           loop 
           playsInline 
-          className="absolute inset-0 w-full h-full object-contain md:object-cover object-center opacity-100"
+          className="w-full h-full object-contain md:object-cover object-center opacity-100"
         >
           <source src="/video/자막수정.mp4" type="video/mp4" />
         </video>
-        {/* 영상 위에 텍스트 가독성을 위한 아주 옅은 어두운 오버레이 추가 (필요 시) */}
-        <div className="absolute inset-0 bg-black/20 z-0"></div>
+        {/* 데스크탑에서만 보이는 가독성용 오버레이 */}
+        <div className="hidden md:block absolute inset-0 bg-black/20 z-0"></div>
       </div>
 
-      
       {/* 컨텐츠 */}
-      <div className="relative z-10 text-center px-4 w-full max-w-4xl mx-auto flex flex-col items-center">
+      <div className="relative z-10 flex-grow flex flex-col items-center justify-center text-center px-4 py-12 md:py-0 w-full max-w-4xl mx-auto md:absolute md:inset-0">
         <p className="text-white/90 text-lg md:text-2xl font-medium mb-4 animate-fade-in-up">
           전문가와 이웃을 잇는 가장 따뜻한 방법,
         </p>
         
-        <h2 className="text-5xl md:text-7xl font-bold text-white mb-10 drop-shadow-lg">
+        <h2 className="text-4xl md:text-7xl font-bold text-white mb-8 md:mb-10 drop-shadow-lg leading-tight">
           인카 제이어스
         </h2>
 
-        
         <button 
           onClick={onOpenForm}
-          className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-white/20 border border-white/50 rounded-full hover:bg-white/30 backdrop-blur-sm transition-all duration-300 overflow-hidden"
+          className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-white/10 md:bg-white/20 border border-white/30 md:border-white/50 rounded-full hover:bg-white/30 backdrop-blur-sm transition-all duration-300 overflow-hidden"
         >
           <span className="relative z-10 flex items-center gap-2">
             전문가 파트너 신청하기
@@ -43,8 +41,8 @@ const Hero = ({ onOpenForm }) => {
         </button>
       </div>
 
-      {/* Scroll Down Indicator */}
-      <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+      {/* 데스크탑 전용 Scroll Down Indicator */}
+      <div className="hidden md:block absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-white/70" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>
