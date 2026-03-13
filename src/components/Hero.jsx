@@ -10,7 +10,7 @@ const Hero = ({ onOpenForm }) => {
           muted 
           loop 
           playsInline 
-          className="absolute inset-0 w-full h-full object-cover object-center opacity-100"
+          className="absolute inset-0 w-full h-full object-contain md:object-cover object-center opacity-100"
         >
           <source src="/video/자막수정.mp4" type="video/mp4" />
         </video>
