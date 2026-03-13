@@ -6,6 +6,7 @@ import Features from './components/Features';
 import InfoCards from './components/InfoCards';
 import NJobCards from './components/NJobCards';
 import SpecialReason1 from './components/SpecialReason1';
+import SpecialReason2 from './components/SpecialReason2';
 import Steps from './components/Steps';
 import Reviews from './components/Reviews';
 import CounselForm from './components/CounselForm';
@@ -36,6 +37,7 @@ function App() {
         <InfoCards />
         <NJobCards />
         <SpecialReason1 />
+        <SpecialReason2 />
         <Steps />
         <Reviews />
         
