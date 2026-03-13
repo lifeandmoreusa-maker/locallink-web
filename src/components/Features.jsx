@@ -22,7 +22,7 @@ const Features = () => {
   return (
     <section className="py-24 bg-gray-50 border-t border-gray-100">
       <div className="container mx-auto px-4 lg:px-8">
-        
+
         {/* Growth Intro */}
         <div className="text-center mb-24 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6 leading-tight">
@@ -40,7 +40,7 @@ const Features = () => {
         {/* 3 Values Section */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-primary block mb-2">인카 제이어스!</span>
+            <span className="text-primary block mb-2">제이어스 앰배서더</span>
             <span className="text-gray-800">3가지 '부자'를 기억하세요.</span>
           </h2>
         </div>
@@ -48,8 +48,8 @@ const Features = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {cards.map((card, idx) => (
-            <div 
-              key={idx} 
+            <div
+              key={idx}
               className="bg-white border-2 border-primary/10 rounded-2xl p-10 text-center shadow-sm hover:shadow-lg transition-shadow duration-300 hover:border-primary/30 group"
             >
               <div className="text-5xl mb-6 transform group-hover:scale-110 transition-transform duration-300">
@@ -62,7 +62,7 @@ const Features = () => {
             </div>
           ))}
         </div>
-        
+
         <div className="text-center mt-12">
           <p className="text-sm text-gray-500 bg-white inline-block px-4 py-2 rounded-full shadow-sm border border-gray-100">
             * 제이어스는 '홍익인간'의 핵심 가치를 공유합니다.
