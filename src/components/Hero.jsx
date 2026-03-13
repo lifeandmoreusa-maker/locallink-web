@@ -12,7 +12,7 @@ const Hero = ({ onOpenForm }) => {
           playsInline 
           className="absolute inset-0 w-full h-full object-cover opacity-100"
         >
-          <source src="/video/인카_서포터즈_N잡러_모집_영상_제작.mp4" type="video/mp4" />
+          <source src="/video/자막수정.mp4" type="video/mp4" />
         </video>
         {/* 영상 위에 텍스트 가독성을 위한 아주 옅은 어두운 오버레이 추가 (필요 시) */}
         <div className="absolute inset-0 bg-black/20 z-0"></div>
