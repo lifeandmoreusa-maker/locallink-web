@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = ({ onOpenForm }) => {
   return (
-    <section className="relative w-full h-screen min-h-[600px] flex items-center justify-center overflow-hidden">
+    <section className="relative w-full h-[100dvh] min-h-[500px] md:min-h-[600px] flex items-center justify-center overflow-hidden">
       {/* 배경 영상 영역 */}
       <div className="absolute inset-0 z-0 bg-black">
         <video 
@@ -10,7 +10,7 @@ const Hero = ({ onOpenForm }) => {
           muted 
           loop 
           playsInline 
-          className="absolute inset-0 w-full h-full object-cover opacity-100"
+          className="absolute inset-0 w-full h-full object-cover object-center opacity-100"
         >
           <source src="/video/자막수정.mp4" type="video/mp4" />
         </video>
