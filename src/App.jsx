@@ -29,7 +29,7 @@ function App() {
   return (
     <div className="font-sans text-gray-800 antialiased overflow-x-hidden pt-10 md:pt-0">
       <Header onOpenForm={handleOpenForm} />
-      
+
       <main>
         <Hero onOpenForm={handleOpenForm} />
         <Statistics />
@@ -40,7 +40,7 @@ function App() {
         <SpecialReason2 />
         <Steps />
         <Reviews />
-        
+
         {/* Bottom CTA Area */}
         <section className="bg-gradient-to-b from-blue-50 to-white py-24 text-center">
           <div className="container mx-auto px-4 max-w-3xl">
@@ -49,11 +49,11 @@ function App() {
               <span className="text-gray-800 text-3xl md:text-4xl mt-2 block">인카 제이어스</span>
             </h2>
 
-            <button 
+            <button
               onClick={handleOpenForm}
               className="mt-8 btn-primary text-xl px-12 py-5 w-full md:w-auto shadow-[0_10px_25px_rgba(13,110,253,0.3)] hover:shadow-[0_15px_30px_rgba(13,110,253,0.4)] hover:-translate-y-1 transform transition-all duration-300"
             >
-              전문가 파트너 신청하기
+              인카 파트너스 신청하기
             </button>
           </div>
         </section>
