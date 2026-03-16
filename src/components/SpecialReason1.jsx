@@ -30,7 +30,7 @@ export default function SpecialReason1() {
     <section className="py-20" style={{ background: 'linear-gradient(135deg, #e0f2f1 0%, #eceff1 100%)' }}>
       <div className="container mx-auto px-4 max-w-6xl">
         <p className="text-center text-sm font-semibold text-teal-600 uppercase tracking-widest mb-3">
-          인카서포터즈 특별한 이유 1
+          인카 서포터즈(N잡러) 특별한 이유 1
         </p>
         <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-4">
           투명하게 공개하고 약속을 지킵니다.

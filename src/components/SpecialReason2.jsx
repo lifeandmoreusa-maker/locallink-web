@@ -74,7 +74,7 @@ export default function SpecialReason2() {
     <section className="py-20 bg-white overflow-hidden">
       <div className="container mx-auto px-4 max-w-6xl mb-12">
         <p className="text-center text-sm font-semibold text-teal-600 uppercase tracking-widest mb-3">
-          인카 서포터즈 특별한 이유 2
+          인카 서포터즈(N잡러) 특별한 이유 2
         </p>
         <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-4">
           35개의 회사 상품을 파는곳 <span className="text-gray-400">vs</span> 1개의 회사 상품을 파는곳
