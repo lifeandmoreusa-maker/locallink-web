@@ -1,6 +1,6 @@
 const cards = [
   {
-    title: '높은 수수료만 보고 들어갔다가...',
+    title: '수수료만 보고 들어갔다가...',
     description:
       '화려한 숫자 뒤에 숨겨진 진실을 먼저 확인하세요',
     image:

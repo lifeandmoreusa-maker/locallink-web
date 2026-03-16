@@ -14,7 +14,7 @@ const cards = [
   },
   {
     title: '주변에 저희를 알려주세요.',
-    description: '소중한 사람들이 보험을 점검하고, 더 나은\n선택을 하도록 제이어스 전문가를\n소개해주세요',
+    description: '소중한 사람들이 보험을 점검하고, 더 나은\n선택을 하도록 인카 금융 전문가를\n소개해주세요',
     image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhpL6ExStn7guf96fZAWMqCPvR5p3iZuoMEXjtWCxE6hAEv2jWu26YuglUr_giXiuis2uPZMK4rwx_xzNWrrsMDMK5xaoutOPRcBjb8-krPEJ1CQEU7g-_xRwezvQ20lufpmUsScZpkadY/s400/friends_man.png',
     alt: '친구들 일러스트',
   },
