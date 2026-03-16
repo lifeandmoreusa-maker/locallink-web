@@ -29,7 +29,7 @@ const Features = () => {
             서포터즈를 넘어 전문가로,<br />
             인카 서포터즈는 다릅니다.
           </h2>
-          <p className="text-xl text-gray-600 mb-4">로컬 전문가 매칭 플랫폼 최초</p>
+
           <div className="inline-block px-6 py-2 bg-secondary text-white text-2xl font-bold rounded-full shadow-md">
             서포터즈 지원 및 성장 SYSTEM
           </div>
@@ -40,7 +40,7 @@ const Features = () => {
         {/* 3 Values Section */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-primary block mb-2">제이어스 서포터즈</span>
+            <span className="text-primary block mb-2">인카 서포터즈</span>
             <span className="text-gray-800">3가지 '부자'를 지향합니다.</span>
           </h2>
         </div>
