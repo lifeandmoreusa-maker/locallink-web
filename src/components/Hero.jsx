@@ -25,7 +25,7 @@ const Hero = ({ onOpenForm }) => {
         </p>
         
         <h2 className="text-4xl md:text-7xl font-bold text-white mb-8 md:mb-10 drop-shadow-lg leading-tight">
-          인카 서포터즈
+          인카 서포터즈(N잡러)
         </h2>
 
         <button 
