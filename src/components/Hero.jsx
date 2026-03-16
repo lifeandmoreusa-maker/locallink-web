@@ -12,7 +12,7 @@ const Hero = ({ onOpenForm }) => {
           playsInline 
           className="w-full h-full object-contain md:object-cover object-center opacity-100"
         >
-          <source src="/video/수정 완료.mp4" type="video/mp4" />
+          <source src="/video/서포터즈 변경.mp4" type="video/mp4" />
         </video>
         {/* 데스크탑에서만 보이는 가독성용 오버레이 */}
         <div className="hidden md:block absolute inset-0 bg-black/20 z-0"></div>
