@@ -45,7 +45,7 @@ function App() {
         <section className="bg-gradient-to-b from-blue-50 to-white py-24 text-center">
           <div className="container mx-auto px-4 max-w-3xl">
             <h2 className="text-2xl md:text-3xl font-bold text-primary mb-6 leading-relaxed">
-              이웃과 함께 달성하는 성과<br />
+              전문가와 함께 달성하는 성과<br />
               <span className="text-gray-800 text-3xl md:text-4xl mt-2 block">인카 서포터즈</span>
             </h2>
 
