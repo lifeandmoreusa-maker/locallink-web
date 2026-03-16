@@ -13,14 +13,14 @@ const InfoCards = () => {
       badge: '포인트 2',
       badgeClass: 'bg-secondary text-white',
       bgClass: 'bg-blue-50',
-      text: '초기 비용 ZERO\n부담없이 시작하는 로컬 전문가 활동',
+      text: '초기 비용 ZERO\n부담없이 시작하는\n로컬 서포터즈 활동',
       textClass: 'text-gray-800'
     },
     {
       badge: '포인트 3',
       badgeClass: 'bg-white text-primary',
       bgClass: 'bg-primary',
-      text: '경험이 부족해도 괜찮아요\n1:1 파트너 지원 및 신뢰 기반 매칭',
+      text: '경험이 부족해도 괜찮아요\n1:1 파트너 지원을 위한\n전문가 매칭',
       textClass: 'text-white'
     },
     {

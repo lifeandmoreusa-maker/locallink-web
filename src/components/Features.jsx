@@ -40,8 +40,8 @@ const Features = () => {
         {/* 3 Values Section */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            <span className="text-primary block mb-2">제이어스 앰배서더</span>
-            <span className="text-gray-800">3가지 '부자'를 기억하세요.</span>
+            <span className="text-primary block mb-2">제이어스 서포터즈</span>
+            <span className="text-gray-800">3가지 '부자'를 지향합니다.</span>
           </h2>
         </div>
 
@@ -65,7 +65,7 @@ const Features = () => {
 
         <div className="text-center mt-12">
           <p className="text-sm text-gray-500 bg-white inline-block px-4 py-2 rounded-full shadow-sm border border-gray-100">
-            * 제이어스는 '홍익인간'의 핵심 가치를 공유합니다.
+            * 서포터즈는 '홍익인간'의 핵심 가치를 공유합니다.
           </p>
         </div>
 
