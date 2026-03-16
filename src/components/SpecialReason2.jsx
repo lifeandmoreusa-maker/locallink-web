@@ -74,14 +74,14 @@ export default function SpecialReason2() {
     <section className="py-20 bg-white overflow-hidden">
       <div className="container mx-auto px-4 max-w-6xl mb-12">
         <p className="text-center text-sm font-semibold text-teal-600 uppercase tracking-widest mb-3">
-          인카제이어스 특별한 이유 2
+          인카 서포터즈 특별한 이유 2
         </p>
         <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-4">
-          무기가 32개인 설계사 <span className="text-gray-400">vs</span> 무기가 1개인 설계사
+          35개의 회사 상품을 파는곳 <span className="text-gray-400">vs</span> 1개의 회사 상품을 파는곳
         </h2>
         <p className="text-center text-gray-500 leading-relaxed max-w-2xl mx-auto">
-          고객에게 딱 맞는 상품은 A사인데, 내가 속한 곳은 B사만 팔아야 한다면?<br />
-          인카제이어스는 모든 보험사의 상품을 비교/분석할 수 있습니다.
+          고객은 백화점에 가고싶은데, 당신은 당신이 파는 '그 물건'만 사라고 강요한다면?<br />
+          인카 서포터즈는 모든 보험사 상품을 비교/분석할 수 있습니다.
         </p>
       </div>
 
