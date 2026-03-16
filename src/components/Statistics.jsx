@@ -3,7 +3,7 @@ import React from 'react';
 const Statistics = () => {
   const stats = [
     {
-      title: '인카 제이어스 전문가 매칭 최초 누적 파트너스',
+      title: '인카 서포터즈 전문가 매칭 최초 누적 파트너스',
 
       value: '1만 명 돌파',
       note: '*최근 기준',

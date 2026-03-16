@@ -13,7 +13,7 @@ const FloatingButton = ({ onOpenForm }) => {
 
 
         <span className="text-white font-bold text-base md:text-lg flex-1 text-center whitespace-nowrap">
-          파트너 신청하기
+          서포터즈 신청하기
         </span>
       </button>
     </div>

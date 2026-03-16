@@ -11,13 +11,13 @@ const Header = ({ onOpenForm }) => {
         <div className="container mx-auto px-4 lg:px-8 flex justify-between items-center">
           {/* 로고 */}
           <a href="/" className="flex items-center gap-2">
-            <img src="/logo_incar.png" alt="인카 제이어스 로고" className="h-10 md:h-12 object-contain" />
+            <img src="/logo_incar.png" alt="인카 서포터즈 로고" className="h-10 md:h-12 object-contain" />
           </a>
 
           {/* 데스크탑 메뉴 */}
           <nav className="hidden md:block">
             <ul className="flex gap-8">
-              {['인카 제이어스', '블로그', '스토리', '이벤트', 'FAQ'].map((item) => (
+              {['인카 서포터즈', '블로그', '스토리', '이벤트', 'FAQ'].map((item) => (
                 <li key={item}>
                   <a href="#" className="font-medium hover:text-secondary transition-colors text-gray-800">
                     {item}
@@ -51,7 +51,7 @@ const Header = ({ onOpenForm }) => {
         className={`fixed top-0 right-0 h-full w-64 bg-white z-50 transform transition-transform duration-300 ease-in-out md:hidden ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
       >
         <div className="p-6 border-b flex justify-between items-center">
-          <span className="font-bold text-xl text-primary">인카 제이어스</span>
+          <span className="font-bold text-xl text-primary">인카 서포터즈</span>
           <button onClick={() => setIsMobileMenuOpen(false)} className="text-2xl">&times;</button>
         </div>
         <ul className="p-6 flex flex-col gap-6">
@@ -68,7 +68,7 @@ const Header = ({ onOpenForm }) => {
             onClick={() => { setIsMobileMenuOpen(false); onOpenForm(); }}
             className="w-full btn-primary"
           >
-            파트너 신청하기
+            서포터즈 신청하기
           </button>
         </div>
       </div>

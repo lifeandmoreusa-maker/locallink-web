@@ -25,7 +25,7 @@ const Hero = ({ onOpenForm }) => {
         </p>
         
         <h2 className="text-4xl md:text-7xl font-bold text-white mb-8 md:mb-10 drop-shadow-lg leading-tight">
-          인카 제이어스
+          인카 서포터즈
         </h2>
 
         <button 
@@ -33,7 +33,7 @@ const Hero = ({ onOpenForm }) => {
           className="group relative inline-flex items-center justify-center px-8 py-4 text-lg font-bold text-white bg-white/10 md:bg-white/20 border border-white/30 md:border-white/50 rounded-full hover:bg-white/30 backdrop-blur-sm transition-all duration-300 overflow-hidden"
         >
           <span className="relative z-10 flex items-center gap-2">
-            전문가 파트너 신청하기
+            인카 서포터즈 신청하기
             <svg width="13" height="22" viewBox="0 0 13 22" fill="none" className="transform group-hover:translate-x-1 transition-transform">
               <path fillRule="evenodd" clipRule="evenodd" d="M0.52302 20.9056C-0.17434 20.2083 -0.17434 19.0776 0.52302 18.3802L8.18896 10.7143L0.52302 3.04842C-0.17434 2.35104 -0.17434 1.2204 0.52302 0.52302C1.2204 -0.17434 2.35104 -0.17434 3.04842 0.52302L11.977 9.45162C12.6743 10.149 12.6743 11.2797 11.977 11.977L3.04842 20.9056C2.35104 21.6029 1.2204 21.6029 0.52302 20.9056Z" fill="white"></path>
             </svg>

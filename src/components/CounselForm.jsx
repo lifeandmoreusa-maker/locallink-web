@@ -15,7 +15,7 @@ const CounselForm = ({ isOpen, onClose }) => {
           
           {/* Header */}
           <div className="flex justify-between items-center p-6 border-b border-gray-100 flex-shrink-0">
-            <h3 className="text-xl font-bold text-primary">인카 제이어스 전문가 등록 상담 신청</h3>
+            <h3 className="text-xl font-bold text-primary">인카 서포터즈 등록 상담 신청</h3>
 
             <button 
               onClick={onClose}
@@ -100,7 +100,7 @@ const CounselForm = ({ isOpen, onClose }) => {
                   <p className="font-bold mb-2 text-gray-700">전문가 파트너 상담 및 등록을 위한 개인정보 동의서 (필수)</p>
                   <p className="mb-2">* 본 동의서는 제이어스가 개인정보처리자로서 수집 · 이용합니다.</p>
                   <strong className="block text-gray-700 mt-2">1. 수집 · 이용목적</strong>
-                  <p>인카 제이어스 전문가 파트너 상담 진행 및 지역 매칭 안내</p>
+                  <p>인카 서포터즈 상담 진행 및 지역 매칭 안내</p>
 
                   <strong className="block text-gray-700 mt-2">2. 수집 · 이용항목</strong>
                   <p>- 성명, 지역, 연락처, 전문분야 등</p>
