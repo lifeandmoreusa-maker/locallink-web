@@ -3,33 +3,32 @@ import React from 'react';
 const Statistics = () => {
   const stats = [
     {
-      title: '인카 서포터즈 전문가 매칭 최초 누적 파트너스',
-
-      value: '1만 명 돌파',
+      title: '함께하는 인카 파트너',
+      value: '19,000명 돌파',
       note: '*최근 기준',
       bgClass: 'bg-blue-50 border-blue-200',
       titleClass: 'text-primary',
       valueClass: 'text-blue-900'
     },
     {
-      title: '신뢰 기반 누적 매칭 건수',
-      value: '50만 건+',
+      title: '2024년 매출',
+      value: '8323억원',
       note: '*오픈 이후 누적 매칭 기준',
       bgClass: 'bg-green-50 border-green-200',
       titleClass: 'text-success',
       valueClass: 'text-green-900'
     },
     {
-      title: '로컬 전문가 월평균 추가 수익',
-      value: '150만원',
+      title: '업계 최초 사업단 재적 기네스',
+      value: '1000명 돌파',
       note: '*전문 분야별, 활동별 개인차가 있을 수 있습니다.',
       bgClass: 'bg-blue-50 border-blue-200',
       titleClass: 'text-primary',
       valueClass: 'text-blue-900'
     },
     {
-      title: '총 누적 수익 공유액',
-      value: '190억+',
+      title: '인카 금융 재적&업적',
+      value: '1위 사업단',
       note: '*이웃과 함께 달성한 성과입니다.',
       bgClass: 'bg-green-50 border-green-200',
       titleClass: 'text-success',
