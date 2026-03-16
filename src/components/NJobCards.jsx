@@ -24,8 +24,9 @@ export default function NJobCards() {
   return (
     <section className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 max-w-6xl">
-        <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-12">
-          인카 서포터즈(N잡러) 부업 <span className="text-primary">3가지만 기억하세요.</span>
+        <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-12 leading-tight">
+          인카 서포터즈(N잡러) 부업<br />
+          <span className="text-primary">3가지만 기억하세요.</span>
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
