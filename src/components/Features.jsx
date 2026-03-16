@@ -26,12 +26,12 @@ const Features = () => {
         {/* Growth Intro */}
         <div className="text-center mb-24 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6 leading-tight">
-            성장을 넘어 상생으로,<br />
+            서포터즈를 넘어 전문가로,<br />
             인카 서포터즈는 다릅니다.
           </h2>
           <p className="text-xl text-gray-600 mb-4">로컬 전문가 매칭 플랫폼 최초</p>
           <div className="inline-block px-6 py-2 bg-secondary text-white text-2xl font-bold rounded-full shadow-md">
-            누적 파트너스 1만명+
+            서포터즈 지원 및 성장 SYSTEM
           </div>
         </div>
 
