@@ -6,7 +6,7 @@ const InfoCards = () => {
       badge: '포인트 1',
       badgeClass: 'bg-gray-500 text-white',
       bgClass: 'bg-gray-100',
-      text: '직장인, 자영업자, 주부, 프리랜서까지\n직업에 상관없이 누구나',
+      text: '직장인, 자영업자, 주부\n프리랜서까지!\n직업에 상관없이 누구나',
       textClass: 'text-gray-800'
     },
     {
@@ -27,7 +27,7 @@ const InfoCards = () => {
       badge: '포인트 4',
       badgeClass: 'bg-success text-white',
       bgClass: 'bg-green-50',
-      text: '투명한 수익 공유 배분 시스템\n노력한 만큼 확실한 보상',
+      text: '투명한 수익 공유\n배분 시스템\n노력한 만큼 확실한 보상',
       textClass: 'text-gray-800'
     }
   ];
