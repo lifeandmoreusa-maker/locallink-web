@@ -40,7 +40,7 @@ const InfoCards = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="text-primary block mb-2">언제, 어디서든, 누구나</span>
-            <span className="text-gray-800">원하는 시간에 자유롭게 활동해요.</span>
+            <span className="text-gray-800">원하시는 시간에 자유롭게! 수익창출!</span>
           </h2>
         </div>
 
