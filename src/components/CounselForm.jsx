@@ -171,16 +171,20 @@ const CounselForm = ({ isOpen, onClose }) => {
 
   return (
     <>
+      {/* backdrop */}
       <div
-        className="fixed inset-0 bg-black/60 z-50 transition-opacity backdrop-blur-sm"
+        className="fixed inset-0 bg-black/60 z-50 backdrop-blur-sm"
         onClick={handleClose}
       />
 
-      <div className="fixed inset-x-0 bottom-0 z-50 flex items-end justify-center
-                      md:items-center py-4 px-2 sm:px-4 pointer-events-none
-                      h-full sm:h-auto overflow-y-auto w-full mx-auto">
-        <div className="w-full max-w-lg bg-white rounded-t-3xl sm:rounded-3xl
-                        shadow-2xl relative pointer-events-auto flex flex-col max-h-[90vh]">
+      {/* modal shell — full-screen fixed, flex centering */}
+      <div className="fixed inset-0 z-50 flex items-end md:items-center justify-center pointer-events-none">
+        <div
+          className="w-full md:max-w-lg bg-white rounded-t-3xl md:rounded-3xl
+                     shadow-2xl flex flex-col pointer-events-auto"
+          style={{ maxHeight: '90dvh' }}
+          onClick={e => e.stopPropagation()}
+        >
 
           {/* Header */}
           <div className="flex justify-between items-center p-6 border-b border-gray-100 flex-shrink-0">

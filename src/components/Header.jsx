@@ -1,5 +1,13 @@
 import React, { useState } from 'react';
 
+const MENU_ITEMS = [
+  { label: '인카 제이어스', href: '#' },
+  { label: '블로그', href: 'https://blog.naver.com/prologue/PrologueList.naver?blogId=incar_j_us', target: '_blank', rel: 'noopener noreferrer' },
+  { label: '스토리', href: '#' },
+  { label: '이벤트', href: '#' },
+  { label: 'FAQ', href: '#' }
+];
+
 const Header = ({ onOpenForm }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -17,10 +25,15 @@ const Header = ({ onOpenForm }) => {
           {/* 데스크탑 메뉴 */}
           <nav className="hidden md:block">
             <ul className="flex gap-8">
-              {['인카 제이어스', '블로그', '스토리', '이벤트', 'FAQ'].map((item) => (
-                <li key={item}>
-                  <a href="#" className="font-medium hover:text-secondary transition-colors text-gray-800">
-                    {item}
+              {MENU_ITEMS.map((item) => (
+                <li key={item.label}>
+                  <a 
+                    href={item.href}
+                    target={item.target}
+                    rel={item.rel}
+                    className="font-medium hover:text-secondary transition-colors text-gray-800"
+                  >
+                    {item.label}
                   </a>
                 </li>
               ))}
@@ -55,10 +68,16 @@ const Header = ({ onOpenForm }) => {
           <button onClick={() => setIsMobileMenuOpen(false)} className="text-2xl">&times;</button>
         </div>
         <ul className="p-6 flex flex-col gap-6">
-          {['인카 제이어스', '블로그', '스토리', '이벤트', 'FAQ'].map((item) => (
-            <li key={item}>
-              <a href="#" className="text-lg font-medium text-gray-800 block" onClick={() => setIsMobileMenuOpen(false)}>
-                {item}
+          {MENU_ITEMS.map((item) => (
+            <li key={item.label}>
+              <a 
+                href={item.href}
+                target={item.target}
+                rel={item.rel}
+                className="text-lg font-medium text-gray-800 block" 
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                {item.label}
               </a>
             </li>
           ))}
