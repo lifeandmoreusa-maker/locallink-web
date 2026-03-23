@@ -32,7 +32,7 @@ export default function SpecialReason1() {
         <p className="text-center text-sm font-semibold text-teal-600 uppercase tracking-widest mb-3">
           인카 서포터즈(N잡러) 특별한 이유 1
         </p>
-        <h2 className="text-2xl md:text-3xl font-bold text-center text-gray-800 mb-4">
+        <h2 className="text-xl md:text-3xl font-bold text-center text-gray-800 mb-4 whitespace-nowrap tracking-tighter">
           투명하게 공개하고 약속을 지킵니다.
         </h2>
         <p className="text-center text-gray-500 mb-12 leading-relaxed">
@@ -53,7 +53,7 @@ export default function SpecialReason1() {
                 className="w-28 h-28 object-contain mb-6"
               />
               <h3 className="text-lg font-bold text-gray-800 mb-3">{card.title}</h3>
-              <p className="text-gray-500 text-sm leading-relaxed whitespace-pre-line">{card.description}</p>
+              <p className="text-gray-500 text-[0.8rem] md:text-sm leading-relaxed whitespace-pre-line tracking-tighter md:whitespace-normal whitespace-nowrap block w-full overflow-hidden text-clip">{card.description}</p>
             </div>
           ))}
         </div>

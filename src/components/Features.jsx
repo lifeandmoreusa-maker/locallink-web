@@ -26,8 +26,8 @@ const Features = () => {
         {/* Growth Intro */}
         <div className="text-center mb-24 max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-6 leading-tight">
-            서포터즈(N잡러) 부업을 넘어 전문가로,<br />
-            인카 서포터즈는 다릅니다.
+            서포터즈(N잡러) 부업을 넘어 전문가로,<br /><br className="md:hidden" />
+            인카 서포터즈는 <br className="md:hidden" />다릅니다!
           </h2>
 
           <div className="inline-block px-6 py-2 bg-secondary text-white text-2xl font-bold rounded-full shadow-md mt-4">
@@ -41,7 +41,7 @@ const Features = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="text-primary block mb-2">인카 서포터즈(N잡러)</span>
-            <span className="text-gray-800">3가지 '부자'를 지향합니다.</span>
+            <span className="text-gray-800 whitespace-nowrap text-2xl md:text-4xl tracking-tighter">3가지 '부자'를 지향합니다.</span>
           </h2>
         </div>
 
@@ -65,7 +65,7 @@ const Features = () => {
 
         <div className="text-center mt-12">
           <p className="text-sm text-gray-500 bg-white inline-block px-4 py-2 rounded-full shadow-sm border border-gray-100">
-            * 서포터즈는 '홍익인간'의 핵심 가치를 공유합니다.
+            <span className="whitespace-nowrap text-xs md:text-sm tracking-tighter">* 서포터즈는 '홍익인간'의 핵심 가치를 공유합니다.</span>
           </p>
         </div>
 

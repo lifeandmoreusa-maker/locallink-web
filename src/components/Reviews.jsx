@@ -15,7 +15,7 @@ const Reviews = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             <span className="text-primary block mb-2">신뢰가 증명하는 리뷰</span>
-            <span className="text-gray-800">다음은 여러분의 차례입니다.</span>
+            <span className="text-gray-800 whitespace-nowrap text-2xl md:text-4xl tracking-tighter">다음은 여러분의 차례입니다.</span>
           </h2>
         </div>
 

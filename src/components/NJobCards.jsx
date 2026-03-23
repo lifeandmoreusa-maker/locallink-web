@@ -2,7 +2,7 @@
 const cards = [
   {
     title: '내 보험 먼저 꼼꼼하게 살펴보기',
-    description: '가입한 보험이 나에게 맞는지, 보장은 충분한지\n금융 전문가와 함께 분석해 보세요.',
+    description: '가입한 보험이 나에게 맞는지, \n보장은 충분한지, 금융 전문가와 \n함께 분석해 보세요.',
     image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8cK6xCr_U8_05ADFZu6ohR-soth-ONFlmli_yPV3-LuTPxT9euorEgWgYmHMy5rVgNJgayZ73zsExNtOZExOe4RnVhqgS2liJrignjKg3aQuzxrdeicwYgZOrOJdAQ7cFA9yq4t_cJmCG/s800/money_hokensyouken.png',
     alt: '보험 증서 일러스트',
   },
